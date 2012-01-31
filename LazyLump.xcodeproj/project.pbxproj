@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F4106E514C9465100446D29 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F4106D314C9465100446D29 /* MainWindow-iPad.xib */; };
+		8F4106E614C9465100446D29 /* RootViewController_ipad.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4106D614C9465100446D29 /* RootViewController_ipad.m */; };
+		8F4106E914C9465100446D29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4106DC14C9465100446D29 /* AppDelegate.m */; };
+		8F4106F114C9477300446D29 /* LazyLump-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F4106EE14C9477300446D29 /* LazyLump-Info.plist */; };
+		8F4106F214C9477300446D29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4106F014C9477300446D29 /* main.m */; };
+		8F4106F614C947F300446D29 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F4106F414C947F300446D29 /* Localizable.strings */; };
+		8F4106F814C9488D00446D29 /* RootviewController_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F4106F714C9488D00446D29 /* RootviewController_ipad.xib */; };
+		8F4106FA14C94A4600446D29 /* Spinwheel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F4106F914C94A4600446D29 /* Spinwheel.jpg */; };
+		8F41070414C94F7100446D29 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F41070314C94F7100446D29 /* QuartzCore.framework */; };
+		8F7FBDA614C42D8A003BF03D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7FBDA514C42D8A003BF03D /* UIKit.framework */; };
+		8F7FBDA814C42D8A003BF03D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7FBDA714C42D8A003BF03D /* Foundation.framework */; };
+		8F7FBDAA14C42D8A003BF03D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7FBDA914C42D8A003BF03D /* CoreGraphics.framework */; };
+		8FBB637914CAD39A00259AD0 /* KTOneFingerRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBB637814CAD39A00259AD0 /* KTOneFingerRotationGestureRecognizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F4106D314C9465100446D29 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		8F4106D514C9465100446D29 /* RootViewController_ipad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController_ipad.h; sourceTree = "<group>"; };
+		8F4106D614C9465100446D29 /* RootViewController_ipad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController_ipad.m; sourceTree = "<group>"; };
+		8F4106DB14C9465100446D29 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F4106DC14C9465100446D29 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F4106EE14C9477300446D29 /* LazyLump-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "LazyLump-Info.plist"; path = "LazyLump/LazyLump-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8F4106EF14C9477300446D29 /* LazyLump-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "LazyLump-Prefix.pch"; path = "LazyLump/LazyLump-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		8F4106F014C9477300446D29 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = LazyLump/main.m; sourceTree = SOURCE_ROOT; };
+		8F4106F514C947F300446D29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		8F4106F714C9488D00446D29 /* RootviewController_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootviewController_ipad.xib; sourceTree = "<group>"; };
+		8F4106F914C94A4600446D29 /* Spinwheel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Spinwheel.jpg; sourceTree = "<group>"; };
+		8F41070314C94F7100446D29 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8F7FBDA114C42D8A003BF03D /* LazyLump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazyLump.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7FBDA514C42D8A003BF03D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8F7FBDA714C42D8A003BF03D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F7FBDA914C42D8A003BF03D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8FBB637714CAD39A00259AD0 /* KTOneFingerRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTOneFingerRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		8FBB637814CAD39A00259AD0 /* KTOneFingerRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTOneFingerRotationGestureRecognizer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F7FBD9E14C42D8A003BF03D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F41070414C94F7100446D29 /* QuartzCore.framework in Frameworks */,
+				8F7FBDA614C42D8A003BF03D /* UIKit.framework in Frameworks */,
+				8F7FBDA814C42D8A003BF03D /* Foundation.framework in Frameworks */,
+				8F7FBDAA14C42D8A003BF03D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F4106CF14C9465100446D29 /* LazyLump */ = {
+			isa = PBXGroup;
+			children = (
+				8F4106F314C947BA00446D29 /* en.lproj */,
+				8F4106D014C9465100446D29 /* AppDatabase */,
+				8F4106D114C9465100446D29 /* AppImages */,
+				8F4106D214C9465100446D29 /* AppView_iPad */,
+				8F4106D414C9465100446D29 /* AppViewController */,
+				8F4106DA14C9465100446D29 /* Class */,
+				8F4106E114C9465100446D29 /* SupportingFiles */,
+			);
+			path = LazyLump;
+			sourceTree = "<group>";
+		};
+		8F4106D014C9465100446D29 /* AppDatabase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppDatabase;
+			sourceTree = "<group>";
+		};
+		8F4106D114C9465100446D29 /* AppImages */ = {
+			isa = PBXGroup;
+			children = (
+				8F4106F914C94A4600446D29 /* Spinwheel.jpg */,
+			);
+			path = AppImages;
+			sourceTree = "<group>";
+		};
+		8F4106D214C9465100446D29 /* AppView_iPad */ = {
+			isa = PBXGroup;
+			children = (
+				8F4106D314C9465100446D29 /* MainWindow-iPad.xib */,
+				8F4106F714C9488D00446D29 /* RootviewController_ipad.xib */,
+			);
+			path = AppView_iPad;
+			sourceTree = "<group>";
+		};
+		8F4106D414C9465100446D29 /* AppViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8F4106D514C9465100446D29 /* RootViewController_ipad.h */,
+				8F4106D614C9465100446D29 /* RootViewController_ipad.m */,
+			);
+			path = AppViewController;
+			sourceTree = "<group>";
+		};
+		8F4106DA14C9465100446D29 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				8FBB637714CAD39A00259AD0 /* KTOneFingerRotationGestureRecognizer.h */,
+				8FBB637814CAD39A00259AD0 /* KTOneFingerRotationGestureRecognizer.m */,
+				8F4106DB14C9465100446D29 /* AppDelegate.h */,
+				8F4106DC14C9465100446D29 /* AppDelegate.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		8F4106E114C9465100446D29 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8F4106EE14C9477300446D29 /* LazyLump-Info.plist */,
+				8F4106EF14C9477300446D29 /* LazyLump-Prefix.pch */,
+				8F4106F014C9477300446D29 /* main.m */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		8F4106F314C947BA00446D29 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				8F4106F414C947F300446D29 /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		8F7FBD9614C42D89003BF03D = {
+			isa = PBXGroup;
+			children = (
+				8F4106CF14C9465100446D29 /* LazyLump */,
+				8F7FBDA414C42D8A003BF03D /* Frameworks */,
+				8F7FBDA214C42D8A003BF03D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F7FBDA214C42D8A003BF03D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F7FBDA114C42D8A003BF03D /* LazyLump.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F7FBDA414C42D8A003BF03D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F41070314C94F7100446D29 /* QuartzCore.framework */,
+				8F7FBDA514C42D8A003BF03D /* UIKit.framework */,
+				8F7FBDA714C42D8A003BF03D /* Foundation.framework */,
+				8F7FBDA914C42D8A003BF03D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F7FBDA014C42D8A003BF03D /* LazyLump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F7FBDC514C42D8A003BF03D /* Build configuration list for PBXNativeTarget "LazyLump" */;
+			buildPhases = (
+				8F7FBD9D14C42D8A003BF03D /* Sources */,
+				8F7FBD9E14C42D8A003BF03D /* Frameworks */,
+				8F7FBD9F14C42D8A003BF03D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LazyLump;
+			productName = "Laureus App";
+			productReference = 8F7FBDA114C42D8A003BF03D /* LazyLump.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F7FBD9814C42D89003BF03D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "iMobDev Tech";
+			};
+			buildConfigurationList = 8F7FBD9B14C42D89003BF03D /* Build configuration list for PBXProject "LazyLump" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F7FBD9614C42D89003BF03D;
+			productRefGroup = 8F7FBDA214C42D8A003BF03D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F7FBDA014C42D8A003BF03D /* LazyLump */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F7FBD9F14C42D8A003BF03D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4106E514C9465100446D29 /* MainWindow-iPad.xib in Resources */,
+				8F4106F114C9477300446D29 /* LazyLump-Info.plist in Resources */,
+				8F4106F614C947F300446D29 /* Localizable.strings in Resources */,
+				8F4106F814C9488D00446D29 /* RootviewController_ipad.xib in Resources */,
+				8F4106FA14C94A4600446D29 /* Spinwheel.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F7FBD9D14C42D8A003BF03D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4106E614C9465100446D29 /* RootViewController_ipad.m in Sources */,
+				8F4106E914C9465100446D29 /* AppDelegate.m in Sources */,
+				8F4106F214C9477300446D29 /* main.m in Sources */,
+				8FBB637914CAD39A00259AD0 /* KTOneFingerRotationGestureRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F4106F414C947F300446D29 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F4106F514C947F300446D29 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F7FBDC314C42D8A003BF03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer: Deepak Patel (RH277A82X5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Deepak Patel (RH277A82X5)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "BB3F60E1-1358-4521-B208-BAD5AB069AA5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BB3F60E1-1358-4521-B208-BAD5AB069AA5";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F7FBDC414C42D8A003BF03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer: Deepak Patel (RH277A82X5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Deepak Patel (RH277A82X5)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "BB3F60E1-1358-4521-B208-BAD5AB069AA5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BB3F60E1-1358-4521-B208-BAD5AB069AA5";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F7FBDC614C42D8A003BF03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Deepak Patel (RH277A82X5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Deepak Patel (RH277A82X5)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LazyLump/LazyLump-Prefix.pch";
+				INFOPLIST_FILE = "LazyLump/LazyLump-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = LazyLump;
+				PROVISIONING_PROFILE = "BB3F60E1-1358-4521-B208-BAD5AB069AA5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BB3F60E1-1358-4521-B208-BAD5AB069AA5";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8F7FBDC714C42D8A003BF03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Deepak Patel (RH277A82X5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Deepak Patel (RH277A82X5)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LazyLump/LazyLump-Prefix.pch";
+				INFOPLIST_FILE = "LazyLump/LazyLump-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = LazyLump;
+				PROVISIONING_PROFILE = "BB3F60E1-1358-4521-B208-BAD5AB069AA5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BB3F60E1-1358-4521-B208-BAD5AB069AA5";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F7FBD9B14C42D89003BF03D /* Build configuration list for PBXProject "LazyLump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7FBDC314C42D8A003BF03D /* Debug */,
+				8F7FBDC414C42D8A003BF03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F7FBDC514C42D8A003BF03D /* Build configuration list for PBXNativeTarget "LazyLump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7FBDC614C42D8A003BF03D /* Debug */,
+				8F7FBDC714C42D8A003BF03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F7FBD9814C42D89003BF03D /* Project object */;
+}
