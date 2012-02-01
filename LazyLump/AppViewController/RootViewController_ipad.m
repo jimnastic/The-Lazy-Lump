@@ -80,8 +80,23 @@
     {
         NSTimeInterval timeSincePrevious = event.timestamp - previousTimestamp;
         CGFloat revolutionsPerSecond = revolutions/timeSincePrevious;
-        NSLog(@"%.3f",revolutionsPerSecond);
-        [self startAnimationWithRevolutions:revolutionsPerSecond forTime:5.0f];
+        
+        if (revolutionsPerSecond >= MAX_SPEED_OF_WHEEL)
+        {
+            revolutionsPerSecond= MAX_SPEED_OF_WHEEL;
+        }
+        else if (revolutionsPerSecond <= -MAX_SPEED_OF_WHEEL)
+        {
+            revolutionsPerSecond= -MAX_SPEED_OF_WHEEL ;
+        }
+        
+        CGFloat spinTime = MAX_SPEED_OF_WHEEL + 2 * fabsf(revolutionsPerSecond); 
+        
+        NSLog(@"revs: %.3f",revolutionsPerSecond);
+        
+        NSLog(@"time: %.3f",spinTime);
+        
+        [self startAnimationWithRevolutions:revolutionsPerSecond forTime:spinTime];
     }
     revolutions = 0;
 }

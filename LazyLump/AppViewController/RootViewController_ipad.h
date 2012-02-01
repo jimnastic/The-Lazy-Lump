@@ -7,6 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
+#define MAX_SPEED_OF_WHEEL 0.7f
 
 @interface RootViewController_ipad : UIViewController
 {
