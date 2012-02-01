@@ -52,6 +52,7 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event 
 {    
+    [spinWheel.layer removeAllAnimations];
     previousTimestamp = event.timestamp;
 }
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
@@ -87,7 +88,6 @@
 
 - (void)animationDidStop:(CAAnimation *)theAnimation finished:(BOOL)flag
 {
-    spinWheel.userInteractionEnabled = TRUE;
     if (timerUpdate) {
         [timerUpdate invalidate];
         timerUpdate = nil;
@@ -97,7 +97,6 @@
     spinWheel.transform = [[spinWheel.layer presentationLayer] affineTransform];
 }
 -(void)startAnimationWithRevolutions:(float)revPerSecond forTime:(float)time{
-    spinWheel.userInteractionEnabled = FALSE;
     float totalRevolutions = revPerSecond * time;
     
     timerUpdate = [NSTimer scheduledTimerWithTimeInterval:0.1f target:self selector:@selector(updateTransform) userInfo:nil repeats:YES];
