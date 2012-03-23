@@ -1,20 +1,2 @@
-"appDatabaseName"="SurgicalBilling.sqlite";
+"appDatabaseName"="";
 
-"Disclaimer"="The information contained in this app is for education purposes and general information only. The information is provided by DD Surgical LLC and while we will attempt to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the app . Any reliance you place on such information is therefore strictly at your own risk. In no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits  arising out of, or in connection with, the use of this app.";
-
-"Info"="“Time to change and move into the tech age”
-
-The “Surgical Billing: Get it to the Coder” app is meant to simplify how healthcare providers get information to their coders. Currently, most providers write down the procedures on an index card and carry it around in their pockets, for days and sometimes weeks before turning the information to the coder. These notes tend to be illegible and imprecise. If not turned in, the coder depends on dictation. Thus, no card, no dictation means no billing because no record. This is especially true for emergency cases and night time and weekend cases.
-
-The app does not utilize cpt code since cpt codes are copyrighted. Please follow strict PHI policy when using this app and  use your secure hospital email system. You should  check with your institution prior to use. Remember, your patient is your priority and  protecting their identification  takes precedence over anything else. 
-
-The camera  should not be used to photograph PHI. 
-
-Please use the app responsibly.
-
-DD Surgical LLC";
-
-
-"Done"			= "Done";
-
-"%d of %d"		= "%1$d of %2$d";
